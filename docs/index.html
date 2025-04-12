@@ -1,51 +1,208 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Juan Obando - Fullstack Developer</title>
-  <link rel="stylesheet" href="assets/styles.css" />
-  
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juan David Obando - Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body id = "top">
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg bg-body-tertiary fixed-top"
+      style="
+        background: #000000;
+        background: linear-gradient(
+          90deg,
+          #000000,
+          #434343
+        );
+      "
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Juan Obando</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-  <header>
-    <h1>Juan Obando</h1>
-    <h2>Fullstack Developer</h2>
-  </header>
+    <header
+      style="
+        background: #0f2027;
+        background: linear-gradient(
+          90deg,
+          #000000,
+          #434343
+        );
+      "
 
-  <section>
-    <h3>Sobre mí</h3>
-    <p>
-      Soy ingeniero de sistemas y computación de la Universidad de los Andes. Me especializo en desarrollo móvil con Kotlin y en backend con Python (FastAPI). Apasionado por crear productos escalables, seguros y eficientes.
-    </p>
-  </section>
+      
+    >
 
-  <section>
-    <h3>Habilidades</h3>
-    <div class="skills">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular" title="Angular"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" title="Kotlin"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" title="Django"/>
-    </div>
-  </section>
 
-  <section>
-    <h3>Contacto</h3>
-    <div class="contact">
-      <a href="https://www.linkedin.com/in/juan-david-obando-novoa-b775ab325/" target="_blank">LinkedIn</a>
-      <a href="https://github.com/Juan-David-Obando-Novoa" target="_blank">GitHub</a>
-    </div>
-  </section>
+    
+      <div class="container d-flex align-items-center" style="height: 100vh">
+        <div class="row align-items-center">
+          <div class="col-3">
+            <img src="images/yo.jpg" alt="Foto de perfil" class="profile-pic" />
 
-  <footer>
-    © 2025 Juan Obando. Todos los derechos reservados.
-  </footer>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-8">
+            <h2 class="text-white">Hi</h2>
+            <h1 class="text-white display-1">I'm Juan David Obando</h1>
+            <h2 class="text-white">Fullstack Developer</h2>
+          </div>
+        </div>
+      </div>
+    </header>
 
-</body>
+
+
+
+    
+
+    <section id="about">
+      <div class="container-fluid p-5">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="h3">About me</p>
+            <p>
+              Passionate about technology and Web development. I study Systems
+              Engineering and Computing at the University of the Andes in
+              Colombia.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p class="h3">Skills</p>
+            <div class="container mb-2">
+              <div class="row">
+                <div class="col-md-3 skill">
+                  <img class="w-100" src="./images/html.png" alt="HTML" />
+                </div>
+                <div class="col-md-3 skill">
+                  <img class="w-100" src="./images/css.png" alt="CSS" />
+                </div>
+                <div class="col-md-3 skill">
+                  <img
+                    class="w-100"
+                    src="./images/javascript.png"
+                    alt="JavaScript"
+                  />
+                </div>
+                <div class="col-md-3 skill">
+                  <img class="w-100" src="./images/angular.png" alt="Angular" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 skill">
+                  <img src="./images/java.png" alt="Java" class="w-100" />
+                </div>
+                <div class="col-md-3 skill">
+                  <img src="./images/python.png" alt="Python" class="w-100" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <section id="contact" class="py-5 text-center">
+      <div class="container">
+        <p class="h3">Contact me</p>
+        <div class="row">
+          <div class="col">
+            <a
+              href="https://www.linkedin.com/in/juan-david-obando-novoa-b775ab325/"
+              target="_blank"
+              class="btn btn-lg"
+            >
+              <img src="./images/linkedin.png" alt="" />
+            </a>
+          </div>
+          <div class="col">
+            <a
+              href="https://github.com/Juan-David-Obando-Novoa"
+              target="_blank"
+              class="btn btn-lg"
+            >
+              <img src="./images/github.png" alt="" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="mailto:j.obandon@uniandes.edu.co" class="btn btn-lg">
+              <img src="./images/correo.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-3",       style="
+        background: #0f2027;
+        background: linear-gradient(
+          90deg,
+          #000000,
+          #434343
+        );
+      "
+
+      
+    >
+      <div class="container text-center">
+        <p>© 2023 Juan David Obando. Todos los derechos reservados.</p>
+        <p>
+          <a href="#top" class="text-white text-decoration-none"
+            >Volver arriba</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
